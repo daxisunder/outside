@@ -16,7 +16,7 @@ A multi-purpose weather client for your terminal.
       -h, --help                 Print help
       -V, --version              Print version
 
-The `--location` should be a string with your city and country code, e.g. `London, GB` or `New York, US`. If this value is not provided, http://ip-api.com will be used to auto-detect your location based on your IP address.  Location data is cached for 4 hours, and weather data is cached for 10 minutes to reduce API calls.
+The `--location` should be a string with your city and country code, e.g. `London, GB` or `New York, US`. If this value is not provided, http://ip-api.com will be used to auto-detect your location based on your IP address. Location data is cached for 4 hours, and weather data is cached for 10 minutes to reduce API calls.
 
 ## Example Outputs
 
@@ -25,7 +25,6 @@ The `--location` should be a string with your city and country code, e.g. `Londo
     Overcast 18°C | Wind 713 | Precipitation 53%
 
 ### Detailed
-
 
     $ outside -o detailed
     Edmonton, CA
@@ -181,7 +180,7 @@ rpm -i outside-0.4.1-1.x86_64.rpm
 ### Other Linux Systems
 
 ```bash
-tar zxf outside-0.4.1_Linux_x86_64.tar.gz -C /usr/local/bin outside 
+tar zxf outside-0.4.1_Linux_x86_64.tar.gz -C /usr/local/bin outside
 ```
 
 # Configuration Options
@@ -269,7 +268,6 @@ You can also add conditional styling based on the weather condition. For example
   animation-name: blink-condition;
   animation-duration: 2s;
 }
-
 ```
 
 # License

@@ -1,6 +1,8 @@
 mise.toml
 .justfile
 CLAUDE.md
+AGENTS.md
+/tags
 
 # Added by goreleaser init:
 dist/

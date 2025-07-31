@@ -35,5 +35,8 @@ cursive = "0.21"
 stringcase = "0.4"
 termsize = "0.1.9"
 
+[dev-dependencies]
+tempfile = "3.0"
+
 [lints.rust]
 unexpected_cfgs = { level = "warn", check-cfg = ['cfg(tarpaulin_include)'] }
